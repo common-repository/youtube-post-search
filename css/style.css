@@ -1,0 +1,124 @@
+            #search-term {
+                width: 345px;
+                height: 41px;
+                margin-top:20px;   
+            }
+			#search-term #query {
+				width: 83%;
+				height: inherit;
+                padding-left: 5px;
+                float:left;
+                margin-top:0px;
+				border: 1px solid #c6c6c6;
+			    font-size: 10pt;
+			    -webkit-border-top-left-radius: 5px;
+			    -webkit-border-bottom-left-radius: 5px;
+                -webkit-border-top-right-radius: 0px;
+			    -webkit-border-bottom-right-radius: 0px;
+			    -moz-border-top-left-radius: 5px;
+			    -moz-border-bottom-left-radius: 5px;
+                -moz-border-top-right-radius: 0px;
+			    -moz-border-bottom-right-radius: 0px;
+			    border-top-left-radius: 5px;
+			    border-bottom-left-radius: 5px;
+                border-top-right-radius: 0px;
+			    border-bottom-right-radius: 0px;
+			}
+			#search-term .icon {
+                width: 15%;
+				height: inherit;
+                float:right;
+                margin-right:0px;
+                color: #4f5b66;
+				background: #f0f0f0 url('../images/searchicon.png') 8px 0px no-repeat;
+				background-size:contain;
+				-webkit-border-top-right-radius: 5px;
+				-webkit-border-bottom-right-radius: 5px;
+                -moz-border-top-right-radius: 5px;
+			    -moz-border-bottom-right-radius: 5px;
+				border-top-right-radius: 5px;
+				border-bottom-right-radius: 5px;
+				border: 1px solid #c6c6c6;
+			}
+            #search-results a {
+                float:left;
+                color: #23002b;
+                font-size: 110%;
+                font-weight: 600;
+                text-decoration: none;
+                padding-bottom: 7px;
+            }
+            #now_video {
+                width: 100%;
+                margin: 10px;
+            }
+            
+            #whatsup {
+                background: #f9f9f9;
+            }
+
+            .card-title {
+                color: #000000;
+                font-size: 1.4em;
+                padding: 5px 10px 5px 10px;
+                background: #dddddd;
+            }
+
+            .card-text {
+                top: 0px;
+                font-size: 1.2em;
+                font-weight: 600;
+                padding:5px 10px 5px 10px;
+/*                background: #dddddd;*/
+            }
+
+            .viewsdesc {
+                color: #000000;
+                font-size: 1.0em;
+                padding:5px 10px 5px 10px;
+/*                background: #dddddd;*/
+            }
+            .star {
+                width:70px;
+                height:auto;
+                display: inline-block;
+                background: url('../images/dark.png') 0 0 no-repeat;
+                background-size: 70px auto;
+                background-position: center; 
+                border: 0px solid #000;
+            }
+            .star-rating {
+                width:70px;
+                height:auto;
+                display: inline-block;
+                background: url('../images/gold.png') 0 0 no-repeat;
+                background-size: 70px auto;
+                background-position:left;
+            }
+            .views {
+                width: 24px;
+                height: auto;
+                display: inline-block;
+                background: url('../images/views.png') 0 0 no-repeat;
+                background-size: 24px auto;
+                background-position:left;
+                border: 0px solid #000;
+            }
+            .ratings {
+                width: 16px;
+                height: auto;
+                display: inline-block;
+                background: url('../images/rating.png') 0 0 no-repeat;
+                background-size: 16px auto;
+                background-position:left;
+                border: 0px solid #000;
+            }
+            .comments {
+                width: 18px;
+                height: auto;
+                display: inline-block;
+                background: url('../images/comments.png') 0 0 no-repeat;
+                background-size: 18px auto;
+                background-position:left;
+                border: 0px solid #000;
+            }
